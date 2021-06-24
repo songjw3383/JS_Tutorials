@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About</title>
+  <link rel="stylesheet" href="style.css">
+  <link
+      href="https://fonts.googleapis.com/css?family=Oswald:700|Poppins"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    
+    <div class="loader_bg">
+      <div class="loader">
+        <img src="logo.png" alt="" class="blink"/>
+      </div>
+    </div>
+
+    <section>
+      <nav>
+        <a href="index.html"><h4 class="title">ACHLAD EDISTON</h4></a>
+        <ul class="nav-links">
+          <li class="home"><a href="./index.html">Home</a></li>
+          <li class="about"><a href="./about.html">About</a></li>
+          <li class="projects"><a href="./projects.html">Projects</a></li>
+          <li class="contact"><a href="./contact.html">Contact</a></li>
+        </ul>
+        <div class="burger">
+          <div class="line1"></div>
+          <div class="line2"></div>
+          <div class="line3"></div>
+        </div>
+      </nav>
+  
+      
+          <div class="contact_content">
+              <div class="contact_left">
+                  <h1 class="c_1">Contact</h1>
+                  <h2 class="c_2">Phone : 000-000-000</h2>
+                  <h2 class="c_2">Email : xoals19958@gmail.com</h2>
+                  <h2 class="c_2">Instagram : jwjwjw_95</h2>
+              </div>
+              <div class="contact_right">
+                <img src="./form_img.jpg" alt="">
+                <ul class="input_form">
+                  <li><input type="text" placeholder="name" class="name" id="name"></li>
+                  <li><input type="text" placeholder="email" class="email" id="email"></li>
+                  <li><input type="text" placeholder="subject" class="subject" id="subject"></li>
+                  <li><input type="text" placeholder="message" class="message" id="message"></li>
+                  <button] type="submit" class="submit" id="submit">Submit</button>
+                </ul>
+              </div>
+          </div>
+    </section>
+    <script src="script_others.js" defer=""></script>
+    <script
+    src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/gsap.min.js"
+    integrity="sha512-cdV6j5t5o24hkSciVrb8Ki6FveC2SgwGfLE31+ZQRHAeSRxYhAQskLkq3dLm8ZcWe1N3vBOEYmmbhzf7NTtFFQ=="
+    crossorigin="anonymous"
+  ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.6/ScrollMagic.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.6/plugins/animation.gsap.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script>
+      setTimeout(function() {
+        $('.loader_bg').fadeToggle();
+      }, 2000);
+    </script>
+  </body>
+</html>
